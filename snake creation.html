@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Snake Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <canvas id="snakeboard" width="400" height="400"></canvas>
+
+  
+  </body>
+
+  <script>
+    const board_border = 'black';
+    const board_background = "white";
+    const snake_col = 'lightblue';
+    const snake_border = 'darkblue';
+    
+    let snake = [
+      {x: 200, y: 200},
+      {x: 190, y: 200},
+      {x: 180, y: 200},
+      {x: 170, y: 200},
+      {x: 160, y: 200}
+
+      /*Function that prints the parts*/
+function drawSnake() 
+{  
+  snake.forEach(drawSnakePart);
+}
+    ]
+
+
+
+ </script>
+</html>
